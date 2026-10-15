@@ -7,11 +7,11 @@
 window.SITE = {
 
   // --- Brand -------------------------------------------------
-  BRAND_NAME: "FlatRx",                     // chosen Oct 14 (domain flatrx.io still to register)
+  BRAND_NAME: "FlatRx",                     
   HERO_HEADLINE: "Compounded GLP-1s. One flat price.",
   HERO_SUB: "Sign up online. If a licensed provider prescribes, it ships to your door. Message your provider anytime.",
 
-  // --- Scrolling top banner (same items as trycora.io; delete any line you don't want) ---
+  // --- Scrolling top banner (delete any line you don't want) ---
   MARQUEE_ITEMS: [
     "24/7 Messaging Support",
     // "LegitScript-Certified",        // CONFIRM — only once FlatRx itself is certified
@@ -23,7 +23,7 @@ window.SITE = {
   ],
 
   // --- Where the big buttons go -------------------------------
-  CTA_URL: "#",                             // PLACEHOLDER — the Bask intake / checkout link (NOT start.trycora.io)
+  CTA_URL: "#",                             // PLACEHOLDER — intake / checkout link
   CTA_LABEL: "Get started",
 
   // --- Prices (PLACEHOLDERS — not final) ----------------------
@@ -45,7 +45,7 @@ window.SITE = {
 
   // --- Support -------------------------------------------------
   SUPPORT_EMAIL: "support@example.com",     // PLACEHOLDER
-  SUPPORT_PHONE: "(000) 000-0000",          // PLACEHOLDER — do NOT use the Cora 631 number if the brands must stay separate
+  SUPPORT_PHONE: "(000) 000-0000",          // PLACEHOLDER
 
   // --- Trustpilot (off until the new brand has real reviews) ---
   TRUSTPILOT_ENABLED: false,

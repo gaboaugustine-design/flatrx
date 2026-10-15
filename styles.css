@@ -1,4 +1,4 @@
-/* v7 — SnagRx-style page in the blue + warm white palette. Brand and prices stay in config.js. */
+/* Brand and prices stay in config.js. */
 :root {
   --blue: #345DDB;
   --blue-hover: #2347B8;
@@ -59,7 +59,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline
 @keyframes mq { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 .marquee:hover .mq-track { animation-play-state: paused; }
 
-/* Hero (v8: SnagRx layout on a navy panel) */
+/* Hero */
 .hero { padding: 18px 0 0; background: white; }
 .hero-panel { position: relative; display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(0, .95fr); gap: 0 24px; align-items: end; padding: 56px 0 0 56px; border-radius: 30px; overflow: hidden; background: linear-gradient(118deg, #182D4D 0%, #223F7E 55%, #345DDB 100%); color: #DCE6F7; min-height: 640px; }
 .hero-copy { padding-bottom: 52px; min-width: 0; }
