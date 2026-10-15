@@ -1,5 +1,5 @@
 // ============================================================
-//  SITE SETTINGS — this is the ONLY file Gabo needs to edit.
+//  SITE SETTINGS — the only file to edit.
 //  Change the text between the quotes, save, and the site updates.
 //  (Everything marked PLACEHOLDER must be decided before launch.)
 // ============================================================
