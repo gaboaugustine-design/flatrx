@@ -16,7 +16,7 @@
     el.textContent = v;
   });
 
-  // Prices: <span data-price="SEMAGLUTIDE.annual_monthly">
+  // Prices: <span data-price="SEMAGLUTIDE.monthly">
   document.querySelectorAll("[data-price]").forEach(function (el) {
     var v = get(el.getAttribute("data-price"));
     if (v != null) el.textContent = money(v);
@@ -69,5 +69,5 @@
   });
 
   // Page title
-  if (S.BRAND_NAME) document.title = S.BRAND_NAME + " — Compounded GLP-1s, one flat price";
+  if (S.BRAND_NAME) document.title = S.BRAND_NAME + " — Compounded GLP-1s, flat pricing at every dose";
 })();

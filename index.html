@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="noindex, nofollow">
-  <title data-bind="BRAND_NAME">Brand Name</title>
-  <meta name="description" content="Compounded GLP-1 medication at one flat price, if a licensed provider prescribes it. Compounded medications are not FDA-approved.">
+  <title>FlatRx — Compounded GLP-1s, flat pricing at every dose</title>
+  <meta name="description" content="Compounded GLP-1 medication with flat pricing at every dose, if a licensed provider prescribes it. Compounded medications are not FDA-approved.">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,62 +17,62 @@
   <!-- Top bar -->
   <header class="top">
     <div class="wrap top-inner">
-      <a href="#main" class="brand" data-bind="BRAND_NAME">Brand Name</a>
+      <a href="#main" class="brand" data-bind="BRAND_NAME">FlatRx</a>
       <nav class="nav" aria-label="Main navigation"><a href="#how">How it works</a><a href="#plans">Plans</a><a href="#faq">FAQs</a></nav>
-      <a class="btn btn-sm" data-cta data-bind="CTA_LABEL">Get started</a>
+      <a class="btn btn-sm" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
     </div>
   </header>
 
   <main id="main">
-    -->
     <section class="hero">
       <div class="wrap">
         <div class="hero-panel">
 
           <div class="hero-copy">
-            <h1 data-bind="HERO_HEADLINE">Compounded GLP-1s. One flat price.</h1>
+            <h1 data-bind="HERO_HEADLINE">Compounded GLP-1s. Flat pricing at every dose.</h1>
             <p class="sub" data-bind="HERO_SUB">Sign up online. If a licensed provider prescribes, it ships to your door. Message your provider anytime.</p>
-            <p class="hero-line">Semaglutide from <b>$<span data-price="SEMAGLUTIDE.annual_monthly">79</span>/mo</b> and tirzepatide from <b>$<span data-price="TIRZEPATIDE.annual_monthly">119</span>/mo</b>. No insurance. No hidden fees. No clinic visits.</p>
+            <p class="hero-line">Compounded semaglutide from <b>$<span data-price="SEMAGLUTIDE.three_month_monthly">89</span>/mo</b> ($<span data-price="SEMAGLUTIDE.three_month_billed">267</span> billed every 3 months) and compounded tirzepatide from <b>$<span data-price="TIRZEPATIDE.three_month_monthly">109</span>/mo</b> ($<span data-price="TIRZEPATIDE.three_month_billed">327</span> billed every 3 months). Plans renew automatically until you cancel. No insurance. No hidden fees. No clinic visit needed to sign up.</p>
 
             <article class="offer" id="price" aria-label="Pricing">
               <div class="offer-body">
                 <p class="card-kicker">Compounded &middot; Rx only</p>
                 <p class="offer-name">Compounded semaglutide</p>
-                <p class="amt"><span class="from">from</span> $<span data-price="SEMAGLUTIDE.annual_monthly">79</span><span class="per">/mo</span></p>
-                <p class="bill">$<span data-price="SEMAGLUTIDE.annual_yearly">948</span> billed yearly &middot; or $<span data-price="SEMAGLUTIDE.monthly">149</span> month-to-month</p>
-                <p class="alt"><strong>Compounded tirzepatide</strong> from $<span data-price="TIRZEPATIDE.annual_monthly">119</span>/mo</p>
+                <p class="amt"><span class="from">from</span> $<span data-price="SEMAGLUTIDE.three_month_monthly">89</span><span class="per">/mo</span></p>
+                <p class="bill">$<span data-price="SEMAGLUTIDE.three_month_billed">267</span> billed every 3 months &middot; or $<span data-price="SEMAGLUTIDE.monthly">99</span> billed monthly</p>
+                <p class="alt"><strong>Compounded tirzepatide</strong> from $<span data-price="TIRZEPATIDE.three_month_monthly">109</span>/mo ($<span data-price="TIRZEPATIDE.three_month_billed">327</span> every 3 months) or $<span data-price="TIRZEPATIDE.monthly">119</span> monthly</p>
               </div>
               <div class="offer-vials" aria-hidden="true">
                 <img src="assets/vial-navy-card.png" alt="" width="520" height="640" loading="eager">
                 <img src="assets/vial-blue-card.png" alt="" width="520" height="640" loading="eager">
               </div>
             </article>
-            <p class="offer-cap">Compounded <b>semaglutide</b> &amp; <b>tirzepatide</b></p>
+            <p class="offer-cap">Plans renew automatically until you cancel. Not available in California. <a href="/cancellation-policy/">Cancellation Policy</a> &middot; <a href="/refund-policy/">Refund Policy</a></p>
+            <p class="offer-cap">Compounded medications are not FDA-approved and are not therapeutically equivalent to FDA-approved products. They are prepared by state-licensed pharmacies based on a valid prescription from a licensed provider. <a href="/safety/">Important Safety Information</a></p>
 
             <ul class="hero-points">
-              <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg><span>100% online visit. Semaglutide and tirzepatide options.</span></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg><span>Online visit. Compounded semaglutide and compounded tirzepatide options.</span></li>
               <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg><span>Provider review and messaging included. No insurance required.</span></li>
-              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span><b>Same price at every dose, every month.</b> No hidden fees.</span></li>
+              <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M9 12l2 2 4-4"/></svg><span><b>Same price at every dose.</b> No hidden fees.</span></li>
               <li><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="13" height="10" rx="1"/><path d="M16 10h4l1 3v4h-5"/><circle cx="7" cy="19" r="1.5"/><circle cx="18" cy="19" r="1.5"/></svg><span>Free shipping to your door, if prescribed.</span></li>
             </ul>
 
             <div class="hero-actions">
-              <a class="btn btn-white" data-cta data-bind="CTA_LABEL">Get started</a>
+              <a class="btn btn-white" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
               <a class="btn btn-outline" href="#plans">See plans</a>
             </div>
             <ul class="trust light">
               <li>No insurance</li>
               <li>No hidden fees</li>
-              <li>Cancel anytime</li>
+              <li>Cancel renewals anytime</li>
             </ul>
           </div>
 
           <figure class="hero-woman">
-            <img src="assets/hero-cutout-900.png" alt="Illustrative woman holding out the waistband of loose jeans" width="900" height="1381" fetchpriority="high">
+            <img src="assets/hero-kitchen.jpg" alt="Illustrative photo of a woman at a kitchen table holding a mug" width="880" height="1100" fetchpriority="high">
           </figure>
 
         </div>
-        <p class="hero-cap">Illustrative image, not a patient. Individual results vary.</p>
+        <p class="hero-cap">Illustrative image, not a patient.</p>
       </div>
     </section>
 
@@ -91,9 +91,10 @@
         <div class="panel how-grid">
           <div class="how-copy">
             <h2>Start today.<br>All from home.</h2>
-            <p class="lead">No clinic visits, no insurance, no membership fee. A licensed provider reviews everything.</p>
+            <p class="lead">No clinic visit needed to sign up, no insurance, no membership fee. A licensed provider reviews everything.</p>
             <ol class="timeline">
               <li><span class="when">Today</span><span class="what">Answer a few health questions online</span></li>
+              <li><span class="when">Checkout</span><span class="what">Pay for your plan. Full refund if your provider finds treatment isn't appropriate</span></li>
               <li><span class="when">Next</span><span class="what">A licensed provider reviews your information</span></li>
               <li><span class="when">If prescribed</span><span class="what">Your medication ships from a US-licensed pharmacy</span></li>
               <li><span class="when">Ongoing</span><span class="what">Message your provider through your portal</span></li>
@@ -101,7 +102,7 @@
           </div>
           <div class="how-art" aria-hidden="true">
             <div class="phone">
-              <div class="phone-top"><span class="phone-brand" data-bind="BRAND_NAME">Brand Name</span></div>
+              <div class="phone-top"><span class="phone-brand" data-bind="BRAND_NAME">FlatRx</span></div>
               <div class="phone-photo"><img src="assets/hero-v4.png" alt="" loading="lazy"></div>
               <p class="phone-h">Tell us a little about you.</p>
               <p class="phone-p">A few questions so a licensed provider can review your information.</p>
@@ -117,28 +118,29 @@
     <!-- Medications -->
     <section class="sec sec-cream" id="meds">
       <div class="wrap">
-        <h2 class="center">Two medications. One flat price.</h2>
+        <h2 class="center">Two medications. Flat pricing at every dose.</h2>
         <p class="lead center">Your provider decides which one, if either, is appropriate for you.</p>
         <div class="meds">
           <article class="med">
             <h3>Compounded semaglutide injections</h3>
             <div class="med-vials"><img src="assets/vial-navy.png" alt="" width="520" height="667" loading="lazy"><img src="assets/vial-navy.png" alt="" width="520" height="667" loading="lazy"></div>
-            <p class="pill">from $<span data-price="SEMAGLUTIDE.annual_monthly">79</span>/mo</p>
+            <p class="pill">$<span data-price="SEMAGLUTIDE.monthly">99</span>/mo billed monthly, or $<span data-price="SEMAGLUTIDE.three_month_monthly">89</span>/mo billed $<span data-price="SEMAGLUTIDE.three_month_billed">267</span> every 3 months</p>
           </article>
           <article class="med">
             <h3>Compounded tirzepatide injections</h3>
             <div class="med-vials"><img src="assets/vial-blue.png" alt="" width="520" height="667" loading="lazy"><img src="assets/vial-blue.png" alt="" width="520" height="667" loading="lazy"></div>
-            <p class="pill">from $<span data-price="TIRZEPATIDE.annual_monthly">119</span>/mo</p>
+            <p class="pill">$<span data-price="TIRZEPATIDE.monthly">119</span>/mo billed monthly, or $<span data-price="TIRZEPATIDE.three_month_monthly">109</span>/mo billed $<span data-price="TIRZEPATIDE.three_month_billed">327</span> every 3 months</p>
           </article>
         </div>
+        <p class="plans-note">Plans renew automatically until you cancel. Not available in California. <a href="/cancellation-policy/">Cancellation Policy</a> &middot; <a href="/refund-policy/">Refund Policy</a></p>
         <div class="cta-row">
-          <a class="btn btn-lg" data-cta data-bind="CTA_LABEL">Get started</a>
+          <a class="btn btn-lg" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
           <a class="btn btn-ghost btn-lg" href="#plans">See plans</a>
         </div>
         <ul class="trust center">
           <li>No insurance</li>
           <li>No hidden fees</li>
-          <li>Cancel anytime</li>
+          <li>Cancel renewals anytime</li>
         </ul>
       </div>
     </section>
@@ -152,30 +154,30 @@
           <article class="plan-col">
             <h3>Compounded semaglutide</h3>
             <div class="plan plan-best">
-              <div class="plan-head"><span class="plan-name">Annual</span><span class="tag">Best value</span></div>
-              <p class="plan-amt">$<span data-price="SEMAGLUTIDE.annual_monthly">79</span><span class="per">/mo</span></p>
-              <p class="plan-bill">$<span data-price="SEMAGLUTIDE.annual_yearly">948</span> billed yearly</p>
+              <div class="plan-head"><span class="plan-name">Every 3 months</span><span class="tag">Best value</span></div>
+              <p class="plan-amt">$<span data-price="SEMAGLUTIDE.three_month_monthly">89</span><span class="per">/mo</span></p>
+              <p class="plan-bill">$<span data-price="SEMAGLUTIDE.three_month_billed">267</span> billed every 3 months</p>
             </div>
             <div class="plan">
               <div class="plan-head"><span class="plan-name">Monthly</span></div>
-              <p class="plan-amt">$<span data-price="SEMAGLUTIDE.monthly">149</span><span class="per">/mo</span></p>
-              <p class="plan-bill">Billed month to month</p>
+              <p class="plan-amt">$<span data-price="SEMAGLUTIDE.monthly">99</span><span class="per">/mo</span></p>
+              <p class="plan-bill">$<span data-price="SEMAGLUTIDE.monthly">99</span> billed every month</p>
             </div>
-            <a class="btn btn-block" data-cta data-bind="CTA_LABEL">Get started</a>
+            <a class="btn btn-block" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
           </article>
           <article class="plan-col">
             <h3>Compounded tirzepatide</h3>
             <div class="plan plan-best">
-              <div class="plan-head"><span class="plan-name">Annual</span><span class="tag">Best value</span></div>
-              <p class="plan-amt">$<span data-price="TIRZEPATIDE.annual_monthly">119</span><span class="per">/mo</span></p>
-              <p class="plan-bill">$<span data-price="TIRZEPATIDE.annual_yearly">1,428</span> billed yearly</p>
+              <div class="plan-head"><span class="plan-name">Every 3 months</span><span class="tag">Best value</span></div>
+              <p class="plan-amt">$<span data-price="TIRZEPATIDE.three_month_monthly">109</span><span class="per">/mo</span></p>
+              <p class="plan-bill">$<span data-price="TIRZEPATIDE.three_month_billed">327</span> billed every 3 months</p>
             </div>
             <div class="plan">
               <div class="plan-head"><span class="plan-name">Monthly</span></div>
-              <p class="plan-amt">$<span data-price="TIRZEPATIDE.monthly">199</span><span class="per">/mo</span></p>
-              <p class="plan-bill">Billed month to month</p>
+              <p class="plan-amt">$<span data-price="TIRZEPATIDE.monthly">119</span><span class="per">/mo</span></p>
+              <p class="plan-bill">$<span data-price="TIRZEPATIDE.monthly">119</span> billed every month</p>
             </div>
-            <a class="btn btn-block" data-cta data-bind="CTA_LABEL">Get started</a>
+            <a class="btn btn-block" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
           </article>
         </div>
         <ul class="includes">
@@ -184,7 +186,8 @@
           <li>Shipping</li>
           <li>Provider messaging</li>
         </ul>
-        <p class="plans-note">Annual plans renew until you cancel. Cancel anytime by contacting support.</p>
+        <p class="plans-note">Every plan renews automatically until you cancel: monthly plans every month, 3-month plans every 3 months, at the price shown unless we email you at least 30 days before a price change. To cancel, message your care team in the patient portal or email <a data-mailto="SUPPORT_EMAIL" href="mailto:support@flatrx.io" data-bind="SUPPORT_EMAIL">support@flatrx.io</a> before your next renewal is charged. See our <a href="/cancellation-policy/">Cancellation Policy</a> and <a href="/refund-policy/">Refund Policy</a>.</p>
+        <p class="plans-note">Compounded medications are not FDA-approved and are not therapeutically equivalent to FDA-approved products. They are prepared by state-licensed pharmacies based on a valid prescription from a licensed provider. <a href="/safety/">Important Safety Information</a></p>
       </div>
     </section>
 
@@ -195,48 +198,48 @@
         <p class="lead center">You have questions, we have answers.</p>
         <div class="faq">
           <details>
-            <summary>How does <span data-bind="BRAND_NAME">Brand Name</span> work?</summary>
-            <p>You answer health questions online. A licensed, independent provider reviews them and decides whether treatment is appropriate for you. If a prescription is written, a US-licensed compounding pharmacy prepares your medication and ships it to your door. You can message your provider through your portal.</p>
+            <summary>How does <span data-bind="BRAND_NAME">FlatRx</span> work?</summary>
+            <p>You answer health questions online and pay for your plan at checkout. A licensed, independent provider then reviews your answers and decides whether treatment is appropriate for you. If a prescription is written, a US-licensed compounding pharmacy prepares your medication and ships it to your door. You can message your provider through your portal.</p>
           </details>
           <details>
             <summary>Is this FDA-approved?</summary>
-            <p>No. Compounded medications are not FDA-approved and have not been evaluated by the FDA for safety, effectiveness, or quality. They are prepared by state-licensed 503A compounding pharmacies under a prescription from a licensed provider.</p>
+            <p>No. Compounded medications are not FDA-approved and have not been evaluated by the FDA for safety, effectiveness, or quality. They are prepared by state-licensed 503A compounding pharmacies under a prescription from a licensed provider. Read the <a href="/safety/">Important Safety Information</a>.</p>
           </details>
           <details>
             <summary>Will I be prescribed?</summary>
-            <p>Only if a licensed, independent provider reviews your information and decides treatment is appropriate for you. <span data-bind="BRAND_NAME">Brand Name</span> does not prescribe medication or give medical advice.</p>
+            <p>Only if a licensed, independent provider reviews your information and decides treatment is appropriate for you. <span data-bind="BRAND_NAME">FlatRx</span> does not prescribe medication or give medical advice.</p>
           </details>
           <details>
-            <summary>What is the difference between semaglutide and tirzepatide?</summary>
-            <p>Both are GLP-1 receptor agonists taken as a weekly injection. Tirzepatide also acts on a second receptor, GIP. Your provider decides which medication, if either, is appropriate for you.</p>
+            <summary>What is the difference between compounded semaglutide and compounded tirzepatide?</summary>
+            <p>Both are taken as a weekly injection. Compounded semaglutide contains semaglutide, a GLP-1 receptor agonist; compounded tirzepatide contains tirzepatide, which also acts on a second receptor, GIP. Your provider decides which medication, if either, is appropriate for you.</p>
           </details>
           <details>
             <summary>How do the plans work?</summary>
-            <p>Each medication has an annual plan, billed once a year at the lower monthly rate, and a month-to-month plan. Both include the provider review, your medication if prescribed, shipping, and provider messaging. The price does not change when your provider adjusts your dose.</p>
+            <p>Each medication has two plans. Compounded semaglutide: $<span data-price="SEMAGLUTIDE.monthly">99</span> billed every month, or $<span data-price="SEMAGLUTIDE.three_month_billed">267</span> billed every 3 months ($<span data-price="SEMAGLUTIDE.three_month_monthly">89</span>/mo). Compounded tirzepatide: $<span data-price="TIRZEPATIDE.monthly">119</span> billed every month, or $<span data-price="TIRZEPATIDE.three_month_billed">327</span> billed every 3 months ($<span data-price="TIRZEPATIDE.three_month_monthly">109</span>/mo). Every plan renews automatically until you cancel; if a price ever changes, we email you at least 30 days before. Both include the provider review, your medication if prescribed, shipping, and provider messaging. The price does not change when your provider adjusts your dose.</p>
           </details>
           <details>
             <summary>Are there any other fees?</summary>
-            <p>No. There is no membership fee, no consultation fee, and no insurance requirement. The plan price is the whole price.</p>
+            <p>No. There is no membership fee, no consultation fee, and no insurance requirement. The plan price is the whole price. If you choose a pay-later option on a 3-month plan, that provider's own terms, including any interest or fees, apply.</p>
           </details>
           <details>
             <summary>Can I cancel?</summary>
-            <p>Yes, anytime, by contacting support. See the refund policy for unshipped medication.</p>
+            <p>Yes. Plans renew automatically until you cancel. To cancel, message your care team in the patient portal or email <a data-mailto="SUPPORT_EMAIL" href="mailto:support@flatrx.io" data-bind="SUPPORT_EMAIL">support@flatrx.io</a> before your next renewal is charged. See our <a href="/cancellation-policy/">Cancellation Policy</a> and <a href="/refund-policy/">Refund Policy</a>.</p>
           </details>
           <details>
             <summary>Where does the medication come from?</summary>
-            <p>From US-licensed 503A compounding pharmacies. Which pharmacy fills your prescription depends on your state and the formulation your provider prescribes.</p>
+            <p>From US-licensed 503A compounding pharmacies. Which pharmacy fills your prescription depends on your state and the formulation your provider prescribes. The pharmacy that dispenses your order is named on your pharmacy label.</p>
           </details>
           <details>
             <summary>How is it shipped?</summary>
-            <p>Directly to your door with tracking. You'll receive a notification when it ships. Refrigerate your medication when it arrives.</p>
+            <p>Directly to your door. Tracking is provided when available. Refrigerate your medication when it arrives. See our <a href="/shipping-policy/">Shipping Policy</a>.</p>
           </details>
           <details>
             <summary>Which states are eligible?</summary>
-            <p>Availability depends on your state and is confirmed during signup before you pay.</p>
+            <p><span data-bind="BRAND_NAME">FlatRx</span> is available in every US state except California. Your state is confirmed during signup, before you pay.</p>
           </details>
           <details>
             <summary>How do I contact support?</summary>
-            <p>Email <a data-mailto="SUPPORT_EMAIL" href="#" data-bind="SUPPORT_EMAIL">support@example.com</a> or call <a data-tel="SUPPORT_PHONE" href="#" data-bind="SUPPORT_PHONE">(000) 000-0000</a>.</p>
+            <p>Email <a data-mailto="SUPPORT_EMAIL" href="mailto:support@flatrx.io" data-bind="SUPPORT_EMAIL">support@flatrx.io</a>. If you have an account, you can also message the care team in your patient portal. See our <a href="/contact/">contact page</a>.</p>
           </details>
         </div>
       </div>
@@ -247,8 +250,8 @@
       <div class="wrap center">
         <p class="eyebrow light">Get started</p>
         <h2>Ready when you are.</h2>
-        <p class="lead light">Takes a few minutes online. A licensed provider reviews everything before anything ships.</p>
-        <a class="btn btn-white btn-lg" data-cta data-bind="CTA_LABEL">Get started</a>
+        <p class="lead light center">Takes a few minutes online. A licensed provider reviews everything before anything ships.</p>
+        <a class="btn btn-white btn-lg" href="https://start.flatrx.io/" data-cta data-bind="CTA_LABEL">Get started</a>
       </div>
     </section>
 
@@ -258,17 +261,26 @@
   <footer class="foot">
     <div class="wrap">
       <div class="foot-row">
-        <p class="brand" data-bind="BRAND_NAME">Brand Name</p>
+        <p class="brand" data-bind="BRAND_NAME">FlatRx</p>
         <p class="foot-links">
-          <a data-mailto="SUPPORT_EMAIL" href="#" data-bind="SUPPORT_EMAIL">support@example.com</a>
-          <a data-tel="SUPPORT_PHONE" href="#" data-bind="SUPPORT_PHONE">(000) 000-0000</a>
-          <a data-href="PRIVACY_URL" href="#">Privacy</a>
-          <a data-href="TERMS_URL" href="#">Terms</a>
-          <a data-href="REFUND_URL" href="#">Refunds</a>
+          <a data-mailto="SUPPORT_EMAIL" href="mailto:support@flatrx.io" data-bind="SUPPORT_EMAIL">support@flatrx.io</a>
+          <a href="/contact/">Contact</a>
+          <a href="/resources/">Resources</a>
+          <a href="/safety/">Safety information</a>
         </p>
       </div>
-      <p class="disclaimer"><span data-bind="BRAND_NAME">Brand Name</span> is a telehealth platform that connects patients with licensed, independent healthcare providers. <span data-bind="BRAND_NAME">Brand Name</span> does not provide medical advice, prescribe medication, or manufacture drugs. All medical decisions, including diagnosis, treatment, and prescribing, are made solely by licensed providers based on individual clinical evaluation. Medical care is provided by <span data-bind="PROVIDER_GROUP">an independent, licensed provider group</span>. Compounded medications are not FDA-approved and have not been evaluated by the FDA for safety, effectiveness, or manufacturing quality, and they are not therapeutically equivalent to FDA-approved products such as Ozempic&reg;, Wegovy&reg;, Mounjaro&reg;, or Zepbound&reg;. Prescriptions are issued only when a licensed provider determines treatment is appropriate. Individual results vary. Always consult a licensed healthcare provider before starting any treatment. Brand names are trademarks of their respective owners and are referenced for identification only.</p>
-      <p class="copyright">&copy; <span data-year>2026</span> <span data-bind="LEGAL_ENTITY">Brand Name, LLC</span>. All rights reserved.</p>
+      <p class="foot-links foot-legal">
+        <a data-href="PRIVACY_URL" href="/privacy/">Privacy Policy</a>
+        <a data-href="TERMS_URL" href="/terms/">Terms of Service</a>
+        <a data-href="REFUND_URL" href="/refund-policy/">Refund Policy</a>
+        <a href="/cancellation-policy/">Cancellation Policy</a>
+        <a href="/shipping-policy/">Shipping Policy</a>
+        <a href="/telehealth-consent/">Consent to Telehealth</a>
+        <a href="/code-of-conduct/">Physician Code of Conduct</a>
+      </p>
+      <p class="disclaimer"><span data-bind="BRAND_NAME">FlatRx</span> is a telehealth platform that connects patients with licensed, independent healthcare providers. <span data-bind="BRAND_NAME">FlatRx</span> does not provide medical advice, prescribe, compound, or dispense medication. All medical decisions, including diagnosis, treatment, and prescribing, are made solely by licensed providers based on individual clinical evaluation. Medical care is provided by <span data-bind="PROVIDER_GROUP">Wasef Health, PC, an independent medical group</span>. Compounded medications are not FDA-approved and have not been evaluated by the FDA for safety, effectiveness, or manufacturing quality, and they are not therapeutically equivalent to FDA-approved products. Prescriptions are issued only when a licensed provider determines treatment is appropriate. Individual results vary. Always consult a licensed healthcare provider before starting any treatment. <a href="/safety/">Important Safety Information</a></p>
+      <p class="copyright">&copy; <span data-year>2026</span> <span data-bind="LEGAL_ENTITY">Leanio Health LLC, doing business as FlatRx</span>. All rights reserved.</p>
+      <p class="foot-addr">68 George Street, 3R, Brooklyn, NY 11206 &middot; Not available in California</p>
     </div>
   </footer>
 
