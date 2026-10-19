@@ -41,6 +41,7 @@ window.SITE = {
 
   // --- Support -------------------------------------------------
   SUPPORT_EMAIL: "support@flatrx.io",
+  SUPPORT_PHONE: "(631) 488-0789",
 
   // --- Trustpilot (off until the new brand has real reviews) ---
   TRUSTPILOT_ENABLED: false,
@@ -50,8 +51,5 @@ window.SITE = {
 
   // --- Legal / footer -----------------------------------------
   LEGAL_ENTITY: "Leanio Health LLC, doing business as FlatRx",
-  PROVIDER_GROUP: "Wasef Health, PC, an independent medical group",
-  PRIVACY_URL: "/privacy/",
-  TERMS_URL: "/terms/",
-  REFUND_URL: "/refund-policy/"
+  PROVIDER_GROUP: "Wasef Health, PC, an independent medical group"
 };
