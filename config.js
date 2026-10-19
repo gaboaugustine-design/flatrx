@@ -7,7 +7,7 @@ window.SITE = {
 
   // --- Brand -------------------------------------------------
   BRAND_NAME: "FlatRx",
-  HERO_HEADLINE: "Compounded GLP-1s. Flat pricing at every dose.",
+  HERO_HEADLINE: "Compounded GLP-1s. One flat price.",
   HERO_SUB: "Sign up online. If a licensed provider prescribes, it ships to your door. Message your provider anytime.",
 
   // --- Scrolling top banner (delete any line you don't want) ---
