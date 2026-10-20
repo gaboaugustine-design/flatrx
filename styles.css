@@ -495,6 +495,10 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline
 @media(min-width:1051px) { .fx-person { width:40.8%; } }
 @media(min-width:760px) and (max-width:1050px) { .fx-person { width:38%; } }
 
+/* Product image in the hero's right column, shown whole rather than cropped like a photo. */
+.fx-product > img { object-fit:contain; object-position:center; mask-image:none; box-sizing:border-box; padding:56px 28px 56px 8px; }
+@media(max-width:759px) { .fx-product > img { width:auto; max-width:min(100%, 380px); margin:0 auto; padding:4px 0 28px; } }
+
 /* Closing conversion section and selectable billing plans. */
 .band .lead { margin-inline:auto; text-align:center; }
 .band .btn-lg { font-size:19.2px; min-height:64.8px; padding:16.8px 43.2px; }
