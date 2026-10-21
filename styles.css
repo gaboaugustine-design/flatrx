@@ -244,11 +244,12 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline
 .brand-rx { color: #1D52D3; }
 /* Logo: squashes flat, pops back up (once on load, again on hover) */
 .top .brand .brand-flat, .top .brand .brand-rx { display: inline-block; transform-origin: 50% 100%; }
-.top .brand .brand-flat { animation: fxPop .62s cubic-bezier(.3,1.4,.5,1) both; }
-.top .brand .brand-rx { animation: fxPop .62s cubic-bezier(.3,1.4,.5,1) .14s both; }
-.top .brand:hover .brand-flat, .top .brand:hover .brand-rx { animation-name: fxPopAgain; }
+.top .brand .brand-flat { animation: fxPop .55s cubic-bezier(.3,1.4,.5,1) .55s both; }
+.top .brand .brand-rx { animation: fxPop .55s cubic-bezier(.3,1.4,.5,1) .9s both; }
+.top .brand:hover .brand-flat { animation: fxPopAgain .8s ease-out 0s both; }
+.top .brand:hover .brand-rx { animation: fxPopAgain .8s ease-out .15s both; }
 @keyframes fxPop { 0% { transform: scale(1.22,.1); } 55% { transform: scale(.95,1.1); } 78% { transform: scale(1.02,.97); } 100% { transform: none; } }
-@keyframes fxPopAgain { 0% { transform: none; } 25% { transform: scale(1.22,.1); } 65% { transform: scale(.95,1.1); } 85% { transform: scale(1.02,.97); } 100% { transform: none; } }
+@keyframes fxPopAgain { 0% { transform: none; } 15% { transform: scale(1.22,.1); } 45% { transform: scale(1.22,.1); } 72% { transform: scale(.95,1.1); } 88% { transform: scale(1.02,.97); } 100% { transform: none; } }
 @media (prefers-reduced-motion: reduce) { .top .brand .brand-flat, .top .brand .brand-rx { animation: none !important; } }
 .fx-hero { padding: 0 24px 20px; background: var(--cream); }
 .fx-panel { position: relative; isolation: isolate; max-width: 1280px; margin: 0 auto; overflow: hidden; border-radius: 30px; background: var(--navy); color: #fff; }
