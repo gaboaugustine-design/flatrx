@@ -241,6 +241,7 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline
 @keyframes fx-scroll { to { transform: translateX(-50%); } }
 .top-inner { border-bottom: 0; }
 .top .brand, .foot .brand { font-size: 41.8761px; letter-spacing: -.065em; }
+.brand-rx { color: #1D52D3; }
 .fx-hero { padding: 0 24px 20px; background: var(--cream); }
 .fx-panel { position: relative; isolation: isolate; max-width: 1280px; margin: 0 auto; overflow: hidden; border-radius: 30px; background: var(--navy); color: #fff; }
 .fx-panel::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(ellipse at 100% 35%, #345DDB88, transparent 58%); pointer-events: none; }
