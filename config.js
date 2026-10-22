@@ -19,7 +19,7 @@ window.SITE = {
   ],
 
   // --- Where the big buttons go -------------------------------
-  CTA_URL: "https://start.flatrx.io/",      // online visit
+  CTA_URL: "https://start.flatrx.io/start-online-visit/xtdy9j", // online visit
   CTA_LABEL: "Get started",
 
   // --- Prices -------------------------------------------------
@@ -51,5 +51,6 @@ window.SITE = {
 
   // --- Legal / footer -----------------------------------------
   LEGAL_ENTITY: "Leanio Health LLC, doing business as FlatRx",
-  PROVIDER_GROUP: "Wasef Health, PC, an independent medical group"
+  PROVIDER_GROUP: "Wasef Health, PC",
+  PROVIDER_URL: "https://wasef-health.com/"
 };

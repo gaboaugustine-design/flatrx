@@ -573,3 +573,18 @@ a:focus-visible, summary:focus-visible { outline: 3px solid var(--blue); outline
   .legal-toc, .callout { padding: 16px 18px; }
   .foot-legal { gap: 10px 18px; }
 }
+/* Patient login link in the top bar (short label on phones) */
+.top .brand, .top .btn-sm, .top-login { white-space: nowrap; flex: none; }
+.top-login { font-size: 14px; font-weight: 500; text-decoration: none; }
+.top-login:hover { color: var(--blue); }
+.top-login-short { display: none; }
+@media (max-width: 759px) {
+  .top-login { margin-left: auto; font-size: 13px; }
+  .top-login-full { display: none; }
+  .top-login-short { display: inline; }
+}
+@media (max-width: 370px) {
+  .top-inner { gap: 10px; }
+  .top .brand { font-size: 34px; }
+  .top .btn-sm { padding-inline: 16px; }
+}
